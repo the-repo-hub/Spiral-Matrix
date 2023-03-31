@@ -1,4 +1,5 @@
-y, x = map(int, input().split())
+y = int(input('height: '))
+x = int(input('width: '))
 matrix = [[0 for i in range(x)] for j in range(y)]
 counter = 1
 a, b = 0, 0
